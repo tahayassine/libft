@@ -11,7 +11,7 @@
 # **************************************************************************** #
 
 NAME = libft.a
-INC = libft.h get_next_line.h
+INC = libft.h get_next_line.h ft_printf.h
 FLAGS = -Wall -Wextra -Werror -c
 
 SRCS = ft_atoi.c      ft_lstnew.c       ft_putstr.c       ft_strmap.c\
@@ -31,6 +31,13 @@ SRCS = ft_atoi.c      ft_lstnew.c       ft_putstr.c       ft_strmap.c\
 	ft_lstmap.c       ft_putnbr_fd.c    ft_strlen.c       ft_toupper.c\
 	ft_strrev.c       ft_read_char.c    ft_isnl.c         ft_isstr_end.c\
 	ft_strclen.c      get_next_line.c\
+	ft_length_funcs.c ft_parse_and_store.c 					ft_print_all.c \
+	ft_printf.c 	  utilities.c 		print_nocon.c 		decide_force.c \
+	ft_small_functions.c 				ft_very_small_functions.c \
+	ft_det_zeroes.c 	print_char.c \
+	itoabase.c ft_memset.c \
+	ft_putwidechar.c print_str.c print_wstr.c print_long.c \
+	handle_int.c handle_oct.c handle_hex.c handle_nsg.c ft_putstrstr.c ft_putcharstr.c\
 
 OBJS = $(SRCS:.c=.o)
 

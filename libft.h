@@ -61,6 +61,14 @@ int					ft_tolower(int c);
 /*
 ** bonus perso
 */
+int					ft_abs(int n);
+void				ft_wait(double time);
+int					ft_getcfrstolst(char *str, char delim, int last);
+int					ft_atoi_addlen(int *var, const char *str);
+char				*ft_strgrab(const char *str, char delim);
+char				*ft_strndup(const char *str, size_t n);
+int					ft_nbrlen(int nbr);
+
 int					ft_isnl(char c);
 int					ft_isstr_end(char c);
 char				*ft_strrev(char *str);
@@ -107,5 +115,4 @@ void				ft_lstdel(t_list **alst, void (*del)(void *, size_t));
 void				ft_lstadd(t_list **alst, t_list *new);
 void				ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
-void				ft_exit(char *message);
 #endif

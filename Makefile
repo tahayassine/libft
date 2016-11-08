@@ -36,7 +36,8 @@ SRCS = ft_atoi.c      ft_lstnew.c       ft_putstr.c       ft_strmap.c\
 	ft_small_functions.c 				ft_very_small_functions.c \
 	ft_det_zeroes.c 	print_char.c \
 	itoabase.c ft_memset.c \
-	ft_putwidechar.c print_str.c print_wstr.c print_long.c \
+	ft_putwidechar.c print_str.c print_wstr.c print_long.c ft_nbrlen.c\
+	ft_wait.c ft_strgrab.c ft_atoi_addlen.c ft_getcfrstolst.c ft_abs.c ft_strndup.c\
 	handle_int.c handle_oct.c handle_hex.c handle_nsg.c ft_putstrstr.c ft_putcharstr.c\
 
 OBJS = $(SRCS:.c=.o)
